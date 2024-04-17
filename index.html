@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive CV using HTML & CSS</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
+<script src="animate-on-scroll.js" defer></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" type="text/css" href="style.css">
+<script src="animateDots.js" defer></script>
+<script src="popup.js"></script>
+<script src="videoPopup.js" defer></script>
+<script src="fade.js" defer></script>
+<script src="videoLoad.js" defer></script>
+<script src="loader.js" defer></script>
+<script src="arrow-button.js" defer></script>
+<script src="modal.js" defer></script>
+</head>
+<body>
+
+    <div class="videobakgrund">
+        <div class="video-overlay"></div>
+        <video autoplay muted loop id="minVideo">
+            <source src="C0072_4_1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="loadingScreen" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; display: flex; justify-content: center; align-items: center; z-index: 100;">
+        <div class="loader"></div>
+    </div>
+    
+    
+    <div class="container">
+        <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="img/t1.jpg">
+                </div>
+                <h2>Tony Suonvieri<br><span>Online Video Producer</span></h2>
+                <div class="dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="dot blue"></span>
+                    <span class="dot orange"></span>
+                </div> 
+            </div>
+
+            <div class="contactInfo">
+                <h3 class="title">Personal Details</h3>
+                <ul>
+                    <li>
+                        <span class="texttitle">Address</span>
+                    </li>
+                    <li>
+                        <span class="text">Alvgatan 3, Upplands Vasby</span>
+                    </li>
+                    <li>
+                        <span class="texttitle">Phone</span>
+                    </li>
+                    <li>
+                        <span class="text">+46727221991</span>
+                    </li>
+                    <li>
+                        <span class="texttitle">Email</span>
+                    </li>
+                    <li>
+                        <a href="mailto:tsuonvieri1@gmail.com" class="text">tsuonvieri1@gmail.com</a>
+                    </li>
+                    <li>
+                        <span class="texttitle">LinkedIn</span>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tsuonvieri" class="text" target="_blank">www.linkedin.com/in/tsuonvieri</a>
+                    </li>
+                </ul>
+            </div>
+<div class="skills2">
+            <div class="skills1">
+                <h3 class="title3">Software Skills</h3>
+                <h3 class="title4">Creative Cloud</h3>
+                <div class="box1">
+                    <h4>Adobe After Effects</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="box1">
+                    <h4>Adobe Premiere Pro</h4>
+                        <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>Adobe Photoshop</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>Adobe Illustrator</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>Adobe Indesign</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>Adobe XD</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>     
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">Webdesign</h3>
+                <div class="box1">
+                    <h4>Figma</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">Audio</h3>
+                <div class="box1">
+                    <h4>Audition</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>Logic Pro</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">Avid</h3>
+                <div class="box1">
+                    <h4>Composer</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">Languages</h3>
+                <div class="box1">
+                    <h4>Swedish</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>English</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+                <div class="box1">
+                    <h4>Finnish</h4>
+                    <div class="percent1">
+                        <div class="dots">
+                            <!-- Create five spans for the dots -->
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                            <span class="dot transparent"></span> <!-- 55% opacity -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">Driver's License</h3>
+                <div class="box1">
+                    <h4>B</h4>
+                    
+                </div>
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">Certifications</h3>
+                <div class="box1">
+                    <h4>SAE</h4>
+                
+                </div>
+            </div>
+
+            <div class="skills1">
+                <h3 class="title4">References</h3>
+                <div class="box1">
+                    <h4>Available upon request</h4>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="right_Side">
+ 
+        <div class="interest1">
+            <h2 class="title2">SKILLS</h2>
+            <div class="skills_container">
+                <ul class="soft_skills">
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/1415507d-a823-4acf-8f69-e43b53559f02/NHcguvT39v.json"></div>
+                        <span class="text-label" data-content="COMMUNICATION">COMMU-NICATION</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/d41a0f6a-e62b-4adc-8ad3-9b448ecdee54/8Tsq4DxD5A.json"></div>
+                        <span class="text-label" data-content="CREATIVITY">CRE- <br>ATIVITY</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/ad6fdefb-d597-4308-bf94-e74c648e6c7b/bIhT0ZaE5M.json"></div>
+                        <span class="text-label" data-content="PROBLEM SOLVING">PROBLEM-SOLVING</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/8eb322a1-05b2-40ab-8b54-ff04b4bf7fdc/cNxKajDzkG.json"></div>
+                        <span class="text-label" data-content="TIME MANAGEMENT">TIME-MANAGEMENT</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/667f6eba-0507-4b69-8020-7bf95d1a7467/fPEJBocHpC.json"></div>
+                        <span class="text-label" data-content="TEAMWORK">TEAM- <br>WORK</span>
+                    </li>
+                </ul>
+                
+                <ul class="hard_skills">
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/468cd2e6-a293-4e2d-86a4-95d2c34bf2b0/U6Muo9JI3V.json"></div>
+                        <span>PHOTO</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/09dd5e32-56e4-4363-a721-2b15e3c5543a/LktgyoUcVN.json"></div>
+                        <span>VIDEO</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/58074721-e211-49c4-a404-5a610b8011b0/7qtqK3TbVE.json"></div>
+                        <span>EDITING</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/95417527-dae9-48a5-8314-96079786e6df/U4hvoEXATH.json"></div>
+                        <span>HTML/CSS</span>
+                    </li>
+                    <li>
+                        <div class="lottie" data-path="https://lottie.host/5a6d59bc-516c-4247-9955-742122ba6855/iMZe05SigJ.json"></div>
+                        <span>LIVE</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+          
+        <div class="about">
+            <div class="box">
+                <div class="profile-item">
+                    <h2 class="title2">Profile</h2>
+                    <p>Experienced, ambitious, and quick to learn, I strive to achieve the best possible outcomes, both independently and as a team. Flexible and adaptable to new circumstances, with a strong belief in maintaining clear and effective communication to promote a pleasant and productive work environment.</p>
+                </div>
+                <div class="profile-item">
+                    <h2 class="title2">Goals</h2>
+                    <p>I aim to work in an environment that develops me both personally and professionally through varied and educational work experiences. I want to produce high-quality and entertaining content that engages, educates, and affects people, both collaboratively and on my own.
+                        </p>
+                </div>
+            </div>
+            
+    </div>
+    <div class="about">
+        <h2 class="title2">EXPERIENCE</h2>
+        <div class="box2">
+        <div class="experience-entry">
+            <div class="year-company-play">
+                <div class="year_company">
+                    <h5 class="date">MAY 2023 -<br> PRESENT</h5>
+                </div>
+                <div class="play-button" onclick="openVimeoPopup('934939347')">
+                    <img src="img/Play button grey.png" alt="Spela">
+                </div>
+            </div>
+            <div class="title-description">
+                <h4>VIDEO EDITOR</h4>
+                <h5 class="date2">MAY 2023 - PRESENT</h5>
+                <h5 class="company1">FREELANCE - STOCKHOLM, SWEDEN</h5>
+                <p>Freelance - Stockholm, Sweden
+                    As a freelance video producer and translator, I have contributed to numerous projects involving video editing, captioning, translation, and color correction.</p>
+                <button class="expand-btn" onclick="toggleExpand(this)">
+                    See my projects, tasks, and achievements here.
+                    <img src="img/down arrow.png" alt="Pil" class="arrow-icon">
+                </button>
+                <div class="expandable-content">
+                    <ul>
+                        <li class="category">
+                            <h4>Main roles</h4>
+                            <p>Provide clients with high-quality and customized edits tailored to their specific needs.</p>
+                        </li>
+                        <li class="category">
+                            <h4>Projects</h4>
+                            <ul>
+                                <li>Brizo</li>
+                                <li>Greenpeace</li>
+                                <li>Skriv Jouren</li>
+                            </ul>
+                        </li>
+                        <li class="category">
+                            <h4>Responsibilities</h4>
+                            <ul>
+                                <li>Redigering</li>
+                                <li>SFX</li>
+                                <li>VFX</li>
+                                <li>Animation</li>
+                                <li>Graphics</li>
+                                <li>Subtitles</li>
+                                <li>Translation</li>
+                            </ul>
+                        </li>
+                        <li class="category Achievements">
+                            <h4>Achievements</h4>
+                            <ul>
+                                <li>Explainers for startups</li>
+                                <li>Brizo commercial</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="box2">
+        <div class="experience-entry">
+            <div class="year-company-play">
+                <div class="year_company">
+                    <h5 class="date">AUG 2021 -<br> MAY 2023</h5>
+                </div>
+                <div class="play-button" onclick="openModal()">
+                    <img src="img/Play button grey.png" alt="Spela">
+                  </div>                  
+            </div>
+            <div class="title-description">
+                <h4>ONLINE VIDEO PRODUCER</h4>
+                <h5 class="date2">AUG 2021 - MAY 2023</h5>
+                <h5 class="company1">TIEGO AB - STOCKHOLM, SWEDEN</h5>
+                <p>Responsible for video production and content strategy at Tiego, with a focus on social media and web development.</p>
+                <button class="expand-btn" onclick="toggleExpand(this)">
+                    See my projects, tasks, and achievements here
+                    <img src="img/down arrow.png" alt="Pil" class="arrow-icon">
+                </button>
+                <div class="expandable-content">
+                    <ul>
+                        <li class="category1">
+                          <h4>Main roles</h4>
+                          <p>Was responsible for video production and content strategy at Tiego, focusing on internal content, social media, and web development.</p>
+                        </li>
+                        <li class="category special-dashes">
+                          <h4>Projekt</h4>
+                          <ul class="projekt_Lista">
+                            <li>
+                                <p><strong>Create content strategy both externally and internally</strong> <br> Expanding and improving help documentation by creating videos in both English and Swedish, targeted at users.</p>
+                              </li>
+                              <li>
+                                <p><strong>Restructure and modernize the website</strong> <br> Conducted a comprehensive update of the company's website, including a new design, updated photographs, moving content, written content, as well as optimization of code and search engine optimization (SEO).</p>
+                              </li>
+                              <li>
+                                <p><strong>Project planning for live broadcasting</strong> <br> Conducted detailed project planning that included lighting, vision mixing, graphics, camera angles, and development of a program idea. The project aims to present new upgrades in the company's system through live broadcasts on a monthly basis.</p>
+                              </li>
+                              <li>
+                                <p><strong>Photo collage for image use</strong> <br> Created a visual portfolio focused on improving web presence and news publications. The project involved the selection and arrangement of images to strengthen the company's brand and increase online engagement.</p>
+                              </li>                              
+                          </ul>
+                        </li>
+                    </ul>
+                            
+                            
+                        </li>
+                        <li class="category">
+                            <h4>Responsibilities</h4>
+                            <ul>
+                                <li>Project management</li>
+                                <li>Video production</li>
+                                <li>Website maintenance</li>
+                                <li>Photography</li>
+                                <li>Design</li>
+                                <li>Copywriting</li>
+                                <li>Animation</li>
+                                <li>Budgeting</li>
+                            </ul>
+                            </li>
+                            <li class="category Achievements">
+                                <h4>Achievements</h4>
+                                <ul>
+                                  <li>
+                                    Improved team creativity and productivity: Introduced regular creative workshops and brainstorming sessions for the video production team, which led to innovative ideas and more efficient workflows.
+                                </li>
+                                <li>
+                                    By effectively developing and implementing a new program concept for live broadcasts at each program update, we significantly increased audience engagement. This method resulted in a 30% increase in live interactions and an impressive 150% increase in attendance compared to previous events. Moreover, this strategy allowed us to collect additional data based on live questions from our customers, enhancing our understanding and insights into customer needs.
+                                </li>
+                                <li>
+                                    Strategic web maintenance with code optimization: Conducted a major overhaul of our website, where expensive subscription services and third-party plugins were replaced with in-house developed code. This approach not only reduced our operational costs but also improved website performance and user experience.
+                                </li>
+                                <li>
+                                    Careful budgeting and selection of equipment: Developed a customized budget tailored to the company's ambitions. This, in turn, led to cost-effective productions that did not compromise visual standards.
+                                </li>
+                            
+                                </ul>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="box2">
+            <div class="experience-entry">
+                <div class="year-company-play">
+                    <div class="year_company">
+                        <h5 class="date">AUG 2019 -<br> APRIL 2020</h5>
+                    </div>
+                    <div class="play-button" onclick="openVimeoPopup('931819873')">
+                        <img src="img/Play button grey.png" alt="Play">
+                    </div>
+                </div>
+                <div class="title-description">
+                    <h4>ASSISTANT EDITOR</h4>
+                    <h5 class="date2">AUG 2019 - APRIL 2020</h5>
+                    <h5 class="company1">ITV STUDIOS - STOCKHOLM, SWEDEN</h5>
+                    <p>Was responsible for receiving and importing materials, logging, and updating graphic elements such as texts, logos, end credits, and rough cuts.</p>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        See my projects, tasks, and achievements here
+                        <img src="img/down arrow.png" alt="Arrow" class="arrow-icon">
+                    </button>
+                    <div class="expandable-content">
+                        <ul>
+                            <li class="category">
+                                <h4>Main roles</h4>
+                                <p>Assistant editor, intermediary between the camera team, producer, and lead editor.</p>
+                            </li>
+                            <li class="category">
+                                <h4>Projects</h4>
+                                <ul>
+                                    <li>På Gränsen With Peter Jidhe Season 1</li>
+                                    <li>På Gränsen With Peter Jidhe Season 2</li>
+                                    <li>Diabetes Galan with Peter Jihde</li>
+                                    <li>Love Island Sweden Season 1</li>
+                                    <li>Love Island Sweden Season 2</li>
+                                    <li>Perfekt Season 1</li>
+                                </ul>
+                            </li>
+                            <li class="category">
+                                <h4>Responsibilities</h4>
+                                <ul>
+                                    <li>Rough cutting sequences</li>
+                                    <li>Subtitles</li>
+                                    <li>Translation</li>
+                                    <li>Graphics</li>
+                                    <li>Logging</li>
+                                </ul>
+                            </li>
+                            <li class="category Achievements">
+                                <h4>Achievements</h4>
+                                <ul>
+                                    <ul>
+                                        <li>Reduced system crashes and technical disturbances by 50% through initiating regular maintenance and updates of editing software and hardware.</li>
+                                        <li>Developed new more efficient work methods with color coding and shortcuts as well as prompts to cut down logging hours by 65%.</li>
+                                        <li>Created a customized sound library that standardized sound work for different projects, saving time and resources for the company.</li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+            <div class="experience-entry">
+                <div class="year-company-play">
+                    <div class="year_company">
+                        <h5 class="date">MAY 2023 -<br> MARCH 2024</h5>
+                    </div>
+                    <div class="play-button" onclick="openVimeoPopup('931819959')">
+                        <img src="img/Play button grey.png" alt="Play">
+                    </div>                
+                </div>
+                <div class="title-description">
+                    <h4>FILM AND VIDEO EDITOR</h4>
+                    <h5 class="date2">MAY 2023 - MARCH 2024</h5>
+                    <h5 class="company1">UR - STOCKHOLM, SWEDEN</h5>
+                    <p>
+                        Was responsible for receiving and importing materials, logging, and updating graphic elements such as texts and logos. My main focus was on sound design and music setting, as well as designing dramaturgical sequences in collaboration with the animator and producer.</p>
+                        <button class="expand-btn" onclick="toggleExpand(this)">
+                            See my projects, tasks, and achievements here
+                            <img src="img/down arrow.png" alt="Arrow" class="arrow-icon">
+                        </button>
+                        <div class="expandable-content">
+                            <ul>
+                                <li class="category">
+                                    <h4>Main roles</h4>
+                                    <p>Compose together high-quality, entertaining, and educational content with the producer and animator.</p>
+                                </li>
+                                <li class="category">
+                                    <h4>Projects</h4>
+                                    <ul>
+                                        <li>Vår Digitala Planet</li>
+                                        <li>Vår Digitala Planet in Focus</li>
+                                        <li>Skriv Jouren</li>
+                                    </ul>
+                                </li>
+                                <li class="category">
+                                    <h4>Responsibilities</h4>
+                                    <ul>
+                                        <li>Editing</li>
+                                        <li>Animation</li>
+                                        <li>Subtitles</li>
+                                        <li>Translation</li>
+                                        <li>Graphics</li>
+                                        <li>Logging</li>
+                                    </ul>
+                                </li>
+                                <li class="category Achievements">
+                                    <h4>Achievements</h4>
+                                    <ul>
+                                        <li>Reduced system crashes and technical disturbances by 40% through initiating regular maintenance and updates of editing software and hardware.</li>
+                                        <li>Developed new agile work methods including color coding and shortcuts as well as prompts to cut down logging hours by 65%.</li>
+                                        <li>Created a customized sound library that standardized sound work for different projects, saving time and resources for the company.</li>
+                                        <li>Integrated tailored animations to highlight key informative points in our videos, contributing to a deeper educational impact and better reception among the target audience.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="about">
+            <h2 class="title2">EDUCATION</h2>
+            <div class="box2">
+            <div class="experience-entry">
+                <div class="year-company-play">
+                    <div class="year_company">
+                        <h5 class="date">AUG 2018 -<br> APRIL 2020</h5>
+                    </div>
+                    <div class="play-button" onclick="openVimeoPopup('931819929')">
+                        <img src="img/Play button grey.png" alt="Play">
+                    </div>
+                </div>
+                <div class="title-description">
+                    <h4>ONLINE VIDEO PRODUCER</h4>
+                    <h5 class="date2">AUG 2018 - APRIL 2020</h5>
+                    <h5 class="company1">MEDIAINSTITUTET - STOCKHOLM, SWEDEN</h5>
+                    <p>An intense and versatile two-year program designed to equip students with in-depth skills in creating and distributing video content on digital platforms.</p>
+                    <button class="expand-btn" onclick="toggleExpand(this)">
+                        See my projects, tasks, and achievements here
+                        <img src="img/down arrow.png" alt="Arrow" class="arrow-icon">
+                    </button>
+                    <div class="expandable-content">
+                        <ul>
+                            <li><h4>Basic and Advanced Video Production</h4> Students learn everything from camera techniques, lighting, and sound recording to advanced editing and post-production.</li>
+                            <li><h4>Market Communication and Marketing</h4> The program covers strategies for effectively marketing your video content on digital platforms.</li>
+                            <li><h4>Digital Distribution</h4> Students gain knowledge on distribution through various online channels, including social media, and how to measure the impact of your content.</li>
+                            <li><h4>Concept Development and Storytelling</h4> Focus is on developing creative concepts and stories that engage your audience.</li>
+                            <li><h4>Use of AI in Video Production</h4> Courses also include how to use AI tools to streamline and improve video production.</li>
+                            <li><h4>Live Streaming</h4> Students are trained in techniques for conducting high-quality live broadcasts.</li>
+                            <li><h4>Practical Experience through LIA (Learning in the Workplace)</h4> A large part of the program consists of internships where students apply their skills in real projects at companies.</li>
+                            <li><h4>Entrepreneurship and Project Management</h4> The course prepares students for careers as entrepreneurs or project managers within video production.</li>
+                        </ul>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                <div class="interest">
+                    <h2 class="title2">INTERESTS</h2>
+                    <ul>
+                        <li><i class="fa fa-leaf" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-music" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-book" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-cutlery" aria-hidden="true"></i></li>
+                    </ul>
+        
+                    
+        </div>
+        
+        </div> 
+        
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+    <!-- Close Button -->
+    <span class="close">&times;</span>
+  
+    <!-- Slider Content -->
+    <div class="modal-content">
+      <div class="mySlides">
+        <img src="img2/INTRO_1-8.png" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <img src="img2/2.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="img2/3.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="img2/4.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="img2/5.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="img2/6.png" style="width:100%">
+      </div>
+
+      <!-- <div class="mySlides">
+        <img src="img2/OUTRO.png" style="width:100%">
+      </div> -->
+
+      <!-- <div class="mySlides">
+        <video controls style="width:100%">
+          <source src="img/C0090.MP4" type="video/mp4">
+        </video>
+      </div> -->
+  
+      <!-- Next/previous controls -->
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+    </div>
+  </div> 
+  
+</body>
+</html>
+        

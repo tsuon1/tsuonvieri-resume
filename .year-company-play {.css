@@ -1,0 +1,41 @@
+.year-company-play {
+    display: flex;
+    flex-direction: row-reverse; /* Ordna om barnens ordning */
+    justify-content: space-between; /* Placerar barnen på motsatta sidor */
+    align-items: center; /* Centrerar barnen vertikalt */
+    width: 100%; /* Se till att container tar upp hela bredden */
+    margin-bottom: 50px;
+  }
+
+  .play-button, .year_company {
+    flex-basis: 50%; /* Tilldela varje barn hälften av containerns bredd */
+  }
+
+  .play-button {
+    order: 1; /* Se till att play-knappen kommer först */
+    margin-top: 0; /* Återställer marginalen överst */
+  }
+
+  .year_company {
+    order: 2; /* Se till att datumet kommer sist */
+    text-align: right; /* Justerar texten till höger */
+    white-space: nowrap;
+  }
+
+  .date 
+  { 
+    display: none;
+  }
+
+    /* Andra justeringar för att säkerställa att layouten ser bra ut efter omstruktureringen */
+    .about .box2 .experience-entry {
+      padding: 0; /* Återställer padding om nödvändigt */
+      margin-bottom: 20px; /* Lägger till utrymme ovanför varje erfarenhetspost */
+      padding-left: 16px;
+    }
+
+    .box2 { 
+      width: 100%;
+    }
+
+
